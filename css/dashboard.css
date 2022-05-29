@@ -1,0 +1,198 @@
+html, body, #wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+div#wrap {
+    background-color: #eceff3;
+    display: flex;
+}
+
+div.main {
+    background-color: #f7fafb;
+    display: flex;
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -3px 6px 19px -3px rgba(0,0,0,0.75);
+}
+
+div.dashboard {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+div.dashboard-body {
+    display: inline-flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+div.dashboard-header {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+div.dashboard-header div.under {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.dashboard-header div.price {
+    display: flex;
+    flex-direction: row;
+}
+
+div.dashboard-header div#code {
+    display: flex;
+    margin: auto 0;
+}
+
+div.dashboard-header div#rate {
+    display: flex;
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+div.dashboard-side {
+    width: 20%;
+    border-left: 1px solid #ccc;
+    height: 100%;
+}
+
+div.dashboard-side div.search {
+    height: 6%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ccc;
+}
+
+div.dashboard-side input[type="text"] {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+}
+
+div.dashboard-side input[type="text"]:focus {
+    outline: none;
+}
+
+div.dashboard-side ul {
+    height: 94%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+div.dashboard-side ul li {
+    padding: 15px 20px;
+    border-bottom: 0.4px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+div.dashboard-side ul li:hover {
+    background-color: #f4f5f8;
+}
+
+div.dashboard-side ul li.coin.active {
+    background-color: #f4f5f8;
+}
+
+div.side-bar {
+    width: 20%;
+}
+
+div.side-bar ul {
+    padding: 20px;
+    margin: 0;
+}
+
+div.side-bar ul div {
+    text-align: center;
+}
+
+div.side-bar ul li {
+    padding: 20px 35px 20px 35px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+div.side-bar ul li#dashboard-menu {
+    background-color: #6271ea;
+    color: #fff;
+}
+
+div.side-bar ul li:hover {
+    background-color: #6271ea;
+    color: #fff;
+}
+
+div.side-bar ul li i {
+    margin-right: 8px;
+}
+
+div.dashboard-chart {
+    /* height: 100%; */
+    width: 95%;
+    margin: auto;
+}
+
+div.card {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 7px 24px -7px rgba(0,0,0,0.75);
+}
+
+div.card table {
+    width: 100%;
+    height: 100%;
+}
+
+div.card table tr td {
+    text-align: center;
+}
+
+.unit {
+    font-size: 15px;
+}
+
+.signed_rate {
+    padding: 5px 10px; 
+    border-radius: 20px; 
+    display: flex;
+}

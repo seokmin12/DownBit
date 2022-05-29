@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <script src="js/generate_code.js"></script>
+    <script src="js/description_display.js"></script>
+    <title>DownBit</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="section" id="main">
+            <div class="main_section">
+                <div class="title_section">
+                    <h1 id="title">DownBit</h1>
+                    <h3 id="subtitle">암호 화폐 시세 조회소</h3>
+                    <div class="go_select_page_section">
+                        <a href="html/dashboard.html">둘러보기</a>
+                    </div>
+                </div>
+                <div class="bitcoin_img_section">
+                    <img src="img/bitcoin.png" alt="bitcoin">
+                </div>
+            </div>
+            <div id="mouse">
+                <h4 class="scrolldown">Scroll down</h4>
+                <span class="mouse">
+                    <span class="mouse-wheel"></span>
+                </span>
+            </div>
+            <div class="custom-shape-divider-bottom-1653575632">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="section" id="description">
+            <div class="code_description">
+                <h1 id="desc1">업비트 WebSocket사용</h1>
+                <h1 id="desc2">순수 JavaScript로만</h1>
+                <h1 id="desc3">지연없이 실시간으로</h1>
+            </div>
+            <div class="code_box">
+                <div class="box_header">
+                    <span id="red"></span>
+                    <span id="yellow"></span>
+                    <span id="green"></span>
+                </div>
+                <div class="code_body">
+                    <code id="code"></code>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="output"></div>
+</body>
+</html>
