@@ -8,6 +8,7 @@ $(document).ready(function() {
         url: 'https://api.upbit.com/v1/market/all?isDetails=false',
         datatype: 'json',
         type: 'GET',
+        crossDomain: true,
         success: function(data) {
             var jsons = JSON.parse(JSON.stringify(data));
             for (let i = 0; i < jsons.length; i++) {
